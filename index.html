@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify</title>
+  <link rel="icon" href="Blackvariant-Button-Ui-Requests-2-Spotify.512.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/utillity.css">
+  <script src="javascript/script.js"></script>
+</head>
+
+<body>
+  <div class="container flex">
+    <!-- Left Sidebar -->
+    <div class="left flex flex-column">
+      <div class="close">
+        <img src="images/close.svg" alt="Close" class="invert" height="24">
+      </div>
+
+      <div class="home m-1 bg-grey rounded p-1">
+        <div class="logo flex"><img src="images/logo.svg" alt="Spotify Logo" class="logo invert">
+          <h1> Spotify</h1>
+        </div>
+        <ul>
+          <li>
+            <img src="images/home.svg" alt="Home" class="home-logo invert">
+            Home
+          </li>
+          <li>
+            <img src="images/search.svg" alt="Search" class="search invert">
+            Search
+          </li>
+        </ul>
+      </div>
+      <div class="library bg-grey m-1 rounded p-1">
+        <div class="heading">
+          <img src="images/library.svg" alt="Library" class="invert" height="24">
+          <h1>Your Library</h1>
+        </div>
+        <div class="songlist">
+          <ul>
+            <li>
+              <img src="images/music.svg" alt="music" class="invert" height="24">
+              <div class="info">
+                <div><!--song name-->Hot-Feat-YNM</div>
+                <div><!--song artist-->Gunna</div>
+              </div>
+              <div class="playnow">
+                <span>Play Now</span>
+                <img src="images/play.svg" alt="more" class="invert" height="24">
+              </div>
+            </li>
+
+          </ul>
+        </div>
+        <div class="footer">
+          <div><a href="https://www.spotify.com/in-en/legal/">Legal</a></div>
+          <div><a href="https://www.spotify.com/in-en/safetyandprivacy/">Safety & Privacy</a></div>
+          <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a></div>
+          <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a></div>
+          <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a></div>
+          <div><a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="right flex flex-column bg-grey rounded p-1">
+      <div class="header flex justify-between">
+        <div class="nav">
+          <div class="hamburger-container">
+
+            <img src="images/hamburgerthreeline.svg" class="invert" alt="Hamburger Menu" style="    width: 44px;
+    height: 36px;
+    align-items: center;" fill="currentColor">
+
+
+
+            <svg viewBox="0 0 24 24" width="24" height="30" fill="currentColor" aria-hidden="true">
+              <path
+                d="M8.707 12l5.647-5.646a1 1 0 0 0-1.414-1.414l-6.364 6.364a1 1 0 0 0 0 1.414l6.364 6.364a1 1 0 0 0 1.414-1.414L8.707 12z" />
+            </svg>
+            <svg viewBox="0 0 24 24" width="24" height="30" fill="currentColor" aria-hidden="true">
+              <path
+                d="M15.293 12l-5.647 5.646a1 1 0 0 0 1.414 1.414l6.364-6.364a1 1 0 0 0 0-1.414l-6.364-6.364a1 1 0 0 0-1.414 1.414L15.293 12z" />
+            </svg>
+          </div>
+        </div>
+        <div class="buttons">
+          <button>Sign Up</button>
+          <button>Login</button>
+        </div>
+      </div>
+
+      <div class="spotifyplaylists">
+        <h1 style="
+    margin: 10px;
+    padding: 10px;
+         ">Spotify Playlists</h1>
+        <div class="cardcontainer flex">
+           <!--this is tadipaar  album -->
+          <div data-folder="folder"  class="card border">
+            <div class="album-wrapper">
+              <img src="tapipaar album cover" alt="Tapipaar Album Cover" class="albumcover">
+              <div class="play-overlay">
+                <svg viewBox="0 0 48 48" width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="24" cy="24" r="24" fill="#1ED760" />
+                  <polygon points="19,15 35,24 19,33" fill="#fff" />
+                </svg>
+              </div>
+            </div>
+            <div class="card-info">
+              <h2 class="title">Tadipaar</h2>
+              <p class="artist">Mc stan</p>
+            </div>
+          </div>
+ <!--this is travis scott album -->
+          <div   class="card border"data-folder="travis.astro">
+            <div class="album-wrapper">
+              <img src="travis astroworld.webp" alt="Tadipaar Album Cover" class="albumcover">
+              <div class="play-overlay">
+                <svg viewBox="0 0 48 48" width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="24" cy="24" r="24" fill="#1ED760" />
+                  <polygon points="19,15 35,24 19,33" fill="#000" />
+                </svg>
+              </div>
+            </div>
+            <div class="card-info">
+              <h2 class="title">Astroworld</h2>
+              <p class="artist">Travis scott</p>
+            </div>
+          </div>
+          <!--this is gunna who you foolin album -->
+          <div   class="card border" data-folder="gunna">
+            <div class="album-wrapper">
+              <img src="gunna album cover.webp" alt=" Album Cover" class="albumcover">
+              <div class="play-overlay">
+                <svg viewBox="0 0 48 48" width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="24" cy="24" r="24" fill="#1ED760" />
+                  <polygon points="19,15 35,24 19,33" fill="#000" />
+                </svg>
+              </div>
+            </div>
+            <div class="card-info">
+              <h2 class="title">Who you foolin</h2>
+              <p class="artist">Gunna</p>
+            </div>
+          </div>
+          <!-- <div class="card border">
+            <div class="album-wrapper">
+              <img src="gunna" alt="gunna Album Cover" class="albumcover">
+              <div class="play-overlay">
+                <svg viewBox="0 0 48 48" width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="24" cy="24" r="24" fill="#1ED760"/>
+                  <polygon points="19,15 35,24 19,33" fill="#000"/>
+                </svg>
+              </div>
+            </div>
+            <div class="card-info">
+              <h2 class="title">Who you follin</h2>
+              <p class="artist">Gunna</p>
+            </div>
+          </div> -->
+          <div class="playbar">
+            <div class="seekbar">
+              <div class="circle">
+
+
+              </div>
+            </div>
+            <div class="abovebar">
+              <div class="songinfo">
+
+              </div>
+              <div class="songbuttons">
+                <!-- Previous -->
+                <img id="previous" class="previous" src="images/previous.svg" alt="Play/Pause" width="24" height="24">
+                <!-- Play -->
+                <img id="play" class="play" src="images/play.svg" alt="Play/Pause" width="24" height="24">
+
+                <!-- Next -->
+                <img id="next" class="next" src="images/next.svg" alt="Play/Pause" width="24" height="24">
+
+
+
+              </div>
+              
+<div class="volume" style="
+    display: flex;
+    padding: 1px;
+    padding: 12p;
+    justify-content: center;
+    align-items: center;
+">
+              <div class="songtime">02:23 / 02:25</div>
+              <div class="volume">
+                <img src="images/volume.svg" alt="Volume" width="24" height="24" style="width: 36px; gap: 8px; height: 16px;
+" >
+<!--       jxlnxljnxjnx edits-->
+</div>
+
+<div class="range">
+                <input type="range" min="0" max="100" value="50" class="volume-slider">
+</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <!-- this section -->
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

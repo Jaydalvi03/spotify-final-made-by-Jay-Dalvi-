@@ -1,0 +1,73 @@
+<!-- 
+  <div>
+    <div>
+    <a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a>
+    </div>
+    <div>
+    <a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety &amp; Privacy Center</span></a>
+    </div>
+    <div>
+    <a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+    </div>
+    <div>
+    <a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a>
+    </div>
+    <div>
+    <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+    </div>
+    <div>
+    <a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a>
+    </div>
+  </div>
+   -->
+  # Beautiful Responsive Spotify-style Site
+  
+  ## Made by
+  Jay Dalvi, BSc IT Graduate  
+  Email: dalvijay0@gmail.com 
+
+  A lightweight, dynamic, and fully responsive web project built with pure HTML, CSS, and JavaScript. Designed for clarity, accessibility, and smooth interactions without any frameworks or build tools.
+
+  ## Demo
+  Open `index.html` in any modern browser. No server required. For live-reload while developing, use a simple local server:
+  - Python: `python -m http.server`
+  - Node: `npx serve`
+
+  ## Features
+  - Responsive layout that adapts to mobile, tablet, and desktop.
+  - Dynamic UI elements using vanilla JavaScript (navigation, modals, interactive lists).
+  - Mobile-first CSS with flexible grid and flexbox patterns.
+  - Accessible markup (semantic elements, focus states, ARIA where needed).
+  - Lightweight: no external libraries, minimal assets for fast loading.
+
+  ## Project structure (example)
+  - index.html — main page
+  - css/ — styles (responsive, variables, utilities)
+  - js/ — interactive scripts (no transpilation)
+  - assets/ — images, icons, fonts
+
+  Adjust names to match your repo.
+
+  ## How to contribute
+  - Open an issue with clear reproduction steps.
+  - Fork, branch, and submit PRs with focused changes.
+  - Keep JavaScript vanilla and CSS simple; add comments for nontrivial logic.
+
+  ## Accessibility & Performance
+  - Use semantic HTML tags and meaningful alt text.
+  - Keyboard navigable components and visible focus indicators.
+  - Optimize images and avoid blocking main thread work.
+  - Test with Lighthouse and common screen readers.
+
+  ## Customization
+  - Change theme colors in the CSS variables file.
+  - Add new sections by copying the HTML component pattern and wiring any needed JS.
+  - Keep styles modular and reuse utility classes.
+
+  ## License
+  MIT — adapt and redistribute with attribution.
+
+  ## Contact
+  Provide issues or feedback via the repository issue tracker.
+
+  Enjoy exploring and extending the project.
