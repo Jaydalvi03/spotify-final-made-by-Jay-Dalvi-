@@ -1,31 +1,14 @@
-<!-- 
-  <div>
-    <div>
-    <a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a>
-    </div>
-    <div>
-    <a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety &amp; Privacy Center</span></a>
-    </div>
-    <div>
-    <a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
-    </div>
-    <div>
-    <a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a>
-    </div>
-    <div>
-    <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
-    </div>
-    <div>
-    <a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a>
-    </div>
-  </div>
-   -->
+
   # Beautiful Responsive Spotify-style Site
   
   ## Made by
   Jay Dalvi, BSc IT Graduate  
   Email: dalvijay0@gmail.com 
 
+
+  #steps you need to follow is 
+<!--Add all the files in a single folder-->
+<!--its a dynamic working website you could just add songs in the songs folder but add a info.js innit and a cover.jpg image -->
   A lightweight, dynamic, and fully responsive web project built with pure HTML, CSS, and JavaScript. Designed for clarity, accessibility, and smooth interactions without any frameworks or build tools.
 
   ## Demo
