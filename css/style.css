@@ -77,7 +77,7 @@ body {
   flex-direction: column;
   /* padding: 10px; */
   background-color:black;
- height: 130vh; 
+ height: 180vh; 
  /* overflow:auto; */
  /* overflow:scroll; */
   /* gap: 8px; */
@@ -91,7 +91,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 10px;
-   height: 130vh;
+   height: 180vh;
    /* overflow: scroll; */
   /* margin:6px; */
 
@@ -179,7 +179,7 @@ border-radius: 6px;
 }
 
 .songlist{
-  height: 344px;
+  height: 120vh;
   overflow:auto;
 }
 .songlist ul{
@@ -344,7 +344,7 @@ word-break: break-all;
     bottom: 20px;
     background-color:#dad5d5;
     filter: invert(1);
-    border-radius: 30px;
+    border-radius: 15px;
     padding: 12px;
     width: 66%;
     align-items: center;

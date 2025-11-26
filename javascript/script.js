@@ -140,7 +140,7 @@ console.log("data",data);
                 if (cardcontainer) {
                     cardcontainer.innerHTML = cardcontainer.innerHTML + ` <div class="card border" data-folder="${folder}">
             <div class="album-wrapper">
-              <img src="/songs/${folder}/cover.jpg.jpg" class="albumcover">
+              <img src="/songs/${folder}/cover.jpg" class="albumcover">
               <div class="play-overlay">
                 <svg viewBox="0 0 48 48" width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="24" cy="24" r="24" fill="#1ED760" />
@@ -260,9 +260,19 @@ document.querySelector(".hamburger-container")?.addEventListener("click", () => 
 document.querySelector(".close")?.addEventListener("click", () => {
     document.querySelector(".left").style.left = "-120%";
 });
+// AUTO PLAY NEXT SONG WHEN CURRENT ENDS
+currentsong.addEventListener("ended", () => {
+    if (!songsList.length) return;
+
+    const currentIndex = songsList.findIndex(s => currentsong.src.endsWith(s));
+    const nextIndex = (currentIndex + 1) % songsList.length; // loops to start
+
+    playMusic(songsList[nextIndex], true);
+});
 
 
 });
+
 }
     
 
