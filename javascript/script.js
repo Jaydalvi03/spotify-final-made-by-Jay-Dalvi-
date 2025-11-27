@@ -9,7 +9,7 @@ let currFolder;
 async function getsongs(folder) {
     currFolder = folder;
 
-    const res = await fetch(`http://127.0.0.1:5500/${folder}/`);
+    const res = await fetch(`${folder}/`);
     const html = await res.text();
 
     const div = document.createElement("div");
@@ -86,7 +86,7 @@ function playMusic(track, autoplay = true) {
 // -----------------------------
 async function displayalbums() {
     // fetch root listing (adjust if you want a different path)
-    const res = await fetch(`http://127.0.0.1:5500/songs`);
+    const res = await fetch(`/songs`);
     const html = await res.text();
     // console.log(Response);
 

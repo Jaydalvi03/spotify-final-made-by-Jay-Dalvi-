@@ -1,7 +1,12 @@
 {
     "title": "This is Future",
     "description": "Future",
-    "artist": "future"
+    "artist": "future",
+    "tracks": [
+        "Future-Married to the game.mp3",
+        "life is good",
+        "jumpman"
+    ]
    
 
 }

@@ -1,6 +1,5 @@
 {
-    "title": "Travis Scott",
-    "description": " astrothunder songs"
-   
-
+  "title": "Astroworld",
+  "description": "Travis Scott",
+  "songs": ["Travisscott-5%tint.mp3","song2.mp3"]
 }

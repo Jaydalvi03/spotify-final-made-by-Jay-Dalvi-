@@ -1,7 +1,12 @@
 {
     "title": "gunna songs",
     "description": "songs",
-    "artist": "gunna"
+    "artist": "gunna",
+   " tracks": [
+        "drip or drown  ",
+        "sold out dates",
+        "gunna-who-you-fooling"
+    ]
    
 
 }

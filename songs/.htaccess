@@ -1,0 +1,11 @@
+Options +Indexes
+IndexOptions FancyIndexing FoldersFirst NameWidth=*
+
+AddType audio/mpeg .mp3
+AddType application/json .json
+
+Header set Access-Control-Allow-Origin "*"
+Header set Access-Control-Allow-Methods "GET, OPTIONS"
+Header set Access-Control-Allow-Headers "Content-Type"
+
+AddDefaultCharset UTF-8
